@@ -1,9 +1,13 @@
 # gossh
+
 ssh to websocket, webssh backend
+
 通过websocket 转ssh 链接其他主机
+
 Ssh via websocket to other hosts
 
 做为webssh后端,需与xteam.js 配合使用
+
 As a webssh backend, it needs to work with xteam.js
 
 ### Install xteam.js
@@ -56,7 +60,7 @@ this.term.loadAddon(attachAddon)
 
 ## parameter
 
-```
+```golang
 	Hostname string `form:"hostname" json:"hostname" binding:"required"`
 	Port     string `form:"port,default=22" json:"port" `
 	User     string `form:"user,default=root" json:"user"`
