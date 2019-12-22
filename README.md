@@ -69,3 +69,7 @@ this.term.loadAddon(attachAddon)
 	Rows     int    `form:"rows,default=32" json:"rows"`
 	PriKey   string `form:"pk" json:"pri_key"` //base64 private key
 ```
+## Build 
+```bash
+go build 
+```
